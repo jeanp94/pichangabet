@@ -1,0 +1,177 @@
+     .link-option {
+            flex: 1 1 0;
+            border-left:1.5px solid rgba(255, 170, 26, 1);
+        }
+        .lineal-border-bottom {
+            border-bottom: 1px solid rgba(255, 170, 26, 1);
+            background-color: rgb(3, 2, 8);
+        }
+        
+        .link-option:first-child{
+            border-left: none;
+        }
+        .card.card-information {
+        border-radius: 0 0 0.65rem 0.65rem;
+        }
+        .card-information{
+            background: rgba(40, 41, 51, 1);
+        }
+        .btn-more h4{
+            color:#e4e4e4;
+        }
+        .btn-more h5 {
+        color:rgba(255, 170, 26, 1);
+        }
+        .box-register {
+            background: rgba(255, 170, 26, 1);
+            padding: 0.34em;
+            border-radius: 15px;
+        }
+        a.nav-link.link-active-option{
+            color:rgba(255, 170, 26, 1) !important;
+        }
+        .btn-more p{
+            color:white;
+            font-weight: 650;
+        }
+        .slick-next{
+        right: 15px;
+        }
+        .slick-prev{
+            left: 15px;
+            z-index: 9999;
+        }
+        .background-top{
+            background-image: url('../img/top.png');
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+            font-weight: 650;
+            font-size: 15px;
+        }
+        body{
+            background: #030208;
+        }
+        .footer-logo {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .copy-right{
+            color: #e4e4e4;
+        }
+        .slick-next:before{
+            content: url('../img/next.svg');
+        }
+        .slick-prev:before{
+            content: url('../img/left.svg');
+
+        }
+        button.slick-next.slick-arrow,button.slick-prev.slick-arrow{
+            width: 120px;
+            height: 120px;
+        }
+        ul.slick-dots li button {
+            border: 3px solid white ;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+        .slick-dots{
+            bottom: 0;
+            z-index: 9999;
+        }
+        .slick-dots li{
+            width: auto;
+            height: auto;
+        }
+        ul.slick-dots li.slick-active button{
+            border: 3px solid rgba(255, 170, 26, 1);
+        }
+        .text-login p{
+            color:white;
+        }
+        .btn-question p ,.btn-register p{
+            padding: 0;
+            margin: 0;
+        }
+        .box-login {
+            background: rgba(72, 72, 72, 1);
+            padding: 0.65em;
+            margin-bottom: 1em;
+            border-radius: 15px;
+        }
+            .box-information {
+            position: relative;
+            height: calc(13vw - 0.15rem);
+            }
+        .box-information img {
+            position: absolute;
+            bottom: 0;
+        }
+        .information {
+            border-top: 1px solid rgba(255, 170, 26, 1);
+        }
+        .btn-success{
+            background-image: linear-gradient(to bottom, rgba(102, 173, 10, 1) 50%, rgba(88, 149, 9, 1) 50%);
+        }
+        @media only screen and (max-width: 768px) {
+            button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
+                width: 40px;
+                height: 40px;
+            }
+            ul.slick-dots li button{
+                width: 15px;
+                height: 15px;
+            }
+            .slick-dots{
+                bottom: -18px;
+            }
+            .px-5{
+                padding: 0 !important;
+            }
+            .card.card-information.mx-3 {
+                margin: 0.60em;
+            }
+          }
+        @media only screen and (max-width: 1600px) {
+            .box-information {
+               height: calc(12.5vw - 0.15rem);
+            }
+        }
+               @media only screen and (max-width: 1524px) {
+            .box-information {
+               height: calc(12vw - 0.15rem);
+            }
+               }
+               @media only screen and (max-width: 1130px) {
+            .box-information {
+               height: calc(11vw - 0.15rem);
+            }
+               }
+             @media only screen and (max-width: 766px) {
+      .box-information img{
+          position:relative;
+      }
+      .box-information {
+    height: auto;
+}
+.card.card-information .container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+               }
+                              @media only screen and (max-width: 991px) {
+            .center-login {
+                   justify-content: center;
+    align-items: center;
+            }
+               }
+               .navbar-light .navbar-nav .nav-link:hover{
+                   color: rgba(255, 170, 26, 1);
+               }
+               a.text-login{
+                   text-decoration: none;
+               }
