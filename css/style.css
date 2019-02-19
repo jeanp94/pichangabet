@@ -42,7 +42,7 @@
             z-index: 9999;
         }
         .background-top{
-            background-image: url('../img/top.png');
+            background-image: url('https://jeanp94.github.io/pichangabet/img/TOP.png');
         }
         .navbar-light .navbar-nav .nav-link {
             color: white;
