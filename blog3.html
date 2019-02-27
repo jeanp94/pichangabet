@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://jeanp94.github.io/pichangabet/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://jeanp94.github.io/pichangabet/css/slick.css">
+    <link rel="stylesheet" href="https://jeanp94.github.io/pichangabet/css/slick-theme.css">
+    <link rel="stylesheet" href="https://jeanp94.github.io/pichangabet/css/style.css">
+</head>
+<style>
+        .tools-background {
+            background: #e8ebf0!important;
+        }
+        .contant-more {
+            display: flex;
+            margin: 0.35em 0;
+            cursor: pointer;
+        }
+        .contant-more:hover > .contant-more-blog{
+            color:rgba(255, 170, 26, 1);
+            
+        }
+        .btn-more h5{
+            position: relative;
+        }
+        .btn-more h5::after {
+            content: '';
+            width: 50px;
+            height: 3px;
+            background: rgba(255, 170, 26, 1);
+            position: absolute;
+            bottom: -7px;
+            z-index: 9999;
+            left: 0;
+            transition: all 1s ease;
+        }
+        .card-information:hover .btn-more h5::after{
+            width: 200px;
+        }
+        .card.card-information{
+            cursor: pointer;
+        }
+        .background-found{
+        background: rgba(72, 72, 72, 1);
+        color: white;
+         }
+         .img-responsive{
+            width: 100%;
+         }
+         .border-blog{
+            border-top:1px solid rgb(255, 170, 26);
+         }
+</style>
+<body>
+    <div class="container-fluid lineal-border-bottom px-5">
+        <div class="container-fluid px-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light background-top center-login">
+                <a class="navbar-brand" href="#"><img src="https://jeanp94.github.io/pichangabet/img/logo.png" alt="" class="img-fluid"></a>
+                <div class="d-flex flex-column w-100">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="d-flex align-self-end box-login">
+                        <div class="d-flex align-items-center">
+                            <div class="btn-fabe px-2">
+                                <img src="https://jeanp94.github.io/pichangabet/img/ICON-FB.png" alt="" width="25px;">
+                            </div>
+                            <div class="btn-question px-2">
+                                <img src="https://jeanp94.github.io/pichangabet/img/ICON-INTERROGACION.png" alt="" srcset="" width="25px;">
+                            </div>
+                            <a class="btn-question text-login d-flex align-items-center px-2" href="#">
+                                <div class="img-logo">
+                                    <img src="https://jeanp94.github.io/pichangabet/img/LOG-IN-ICON.png" class="mx-1" width="25px;">
+                                </div>   
+                                <p class="align-items-center">Iniciar sesión</p>
+                            </a>
+                            <a class="btn-register text-login d-flex align-items-center px-2 box-register" href="#">
+                                <div class="img-logo">
+                                    <img src="https://jeanp94.github.io/pichangabet/img/REGISTER.png" class="mx-1" width="25px;">
+                                </div>
+                                <p class="align-items-center">Registrarse</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-around w-100">
+                        <li class="nav-item link-option text-center">
+                        <a class="nav-link" href="#"><img src="https://jeanp94.github.io/pichangabet/img/ICON-PROMO.png" alt="" width="25px" class="mx-2">PROMOCIONES</a>
+                        </li>
+                        <li class="nav-item link-option text-center">
+                        <a class="nav-link" href="#"><img src="https://jeanp94.github.io/pichangabet/img/ICON-APUESTAS.png" alt="" width="25px"> APUESTAS DEPORTIVAS</a>
+                        </li>
+                        <li class="nav-item link-option text-center">
+                            <a class="nav-link" href="#"><img src="https://jeanp94.github.io/pichangabet/img/ICON-CASINO.png" alt="" width="25px" class="mx-2">LIVE CASINO</a>
+                        </li>
+                        <li class="nav-item link-option text-center">
+                        <a class="nav-link" href="#"><img src="https://jeanp94.github.io/pichangabet/img/POKER-ICON.png" alt="" width="25px" class="mx-2"> POKER</a>
+                        </li>
+                        <li class="nav-item link-option text-center">
+                            <a class="nav-link" href="blog.html" ><img src="https://jeanp94.github.io/pichangabet/img/ICON-BLOG.png" alt="" width="25px" class="mx-2"> BLOG</a>
+                        </li>
+                        <li class="nav-item link-option text-center">
+                            <a class="nav-link link-active-option" href="#"><img src="https://jeanp94.github.io/pichangabet/img/ICON-LIVE.png" alt="" width="25px" class="mx-2"> ENCUENTROS EN VIVO</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <section class="py-5">
+        <div class="container">
+                <div class="row">
+                    <div class="background-found px-4">
+                        <div class="container">
+                        <img src="melgar.jpg" alt="" srcset="" class="img-fluid py-5 img-responsive">
+                        <p>Martes 20 febrero, 2019</p>
+                        <h1 class="py-2">ILUSIÓN PERUANA EN LA LIBERTADORES</h1>
+                        <p>Melgar con chispas de buen futbol y sufrimiento busca sellar su pase a la fase de grupos ante Caracas.</p>
+                        <hr class="border-blog">
+                        <p class="pb-5"> 
+                        Melgar quedó a 90 minutos de acceder a la fase de grupos de la copa libertadores. El próximo martes visitara al Caracas de Venezuela con una ventaja de 2-0, que parece ser suficiente para integra el grupo F que es comandado por Palmeiras.
+                        El cuadro dirigido por Jorge Pautasso, quien con tan solo 2 meses en el cargo a logrado mostrar una cara distinta a lo que se vio en sus actuaciones pasadas en la Libertadores. Melgar brilla en largos trámites de los encuentros pero también sufre y esas son unas de las cosas que se debe trabajar para lograr la tan ansiada clasificación.
+                        En un año donde se disputará la copa América, tener a Cristal a Alianza Lima y posiblemente a Melgar sería beneficioso para la selección ya que habría mayor posibilidad de encontrar jugadores con un mejor rendimiento y sosteniendo un nivel internacional. Solo esperemos que los “mistianos” sigan por este camino.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section> 
+   
+    <section class="py-5">
+        <picture>
+            <source srcset="https://jeanp94.github.io/pichangabet/img/640-560.png" media="(max-width: 640px)"></source>
+            <source srcset="https://jeanp94.github.io/pichangabet/img/cover-pichanga-febrero-PAW.png" media="(min-width: 640px)"></source>
+            <img src="https://jeanp94.github.io/pichangabet/img/cover-pichanga-febrero-PAW.png" alt="" srcset="" class="img-fluid">
+        </picture>
+    </section>
+    <section class="pb-5">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="social-redes">
+                    <img src="https://jeanp94.github.io/pichangabet/img/ICON-FB.png" alt="" width="45px">
+                </div>
+                <div class="footer-logo">
+                    <img src="https://jeanp94.github.io/pichangabet/img/logo-b-n.png" alt="">
+                    <span class="copy-right">Copyright © 2019 - Pichanga Bet</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://jeanp94.github.io/pichangabet/js/jquery.js"></script>
+    <script src="https://jeanp94.github.io/pichangabet/js/jquery-migrate.js"></script>
+    <script src="https://jeanp94.github.io/pichangabet/js/slick.min.js"></script>
+    <script>
+            $(document).ready(function(){
+                $('.your-class').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 500,
+                    fade: true,
+                    cssEase: 'linear'
+                });
+              });
+    </script>
+</body>
+</html>

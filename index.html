@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,16 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.min.css" />
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://jeanp94.github.io/pichangabet/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://jeanp94.github.io/pichangabet/css/slick.css">
+    <link rel="stylesheet" href="https://jeanp94.github.io/pichangabet/css/slick-theme.css">
+    <link rel="stylesheet" href="https://jeanp94.github.io/pichangabet/css/style.css">
+    <style>
+    .navbar-light .navbar-nav .nav-link:active{
+color: rgba(255, 170, 26, 1);
+    }
+    button.btn-question.text-login.d-flex.align-items-center.px-2 {
+    background: none;
+    border: none;
+}
+    </style>
 </head>
 <body>
     <div class="container-fluid lineal-border-bottom px-5">
         <div class="container-fluid px-5">
             <nav class="navbar navbar-expand-lg navbar-light bg-light background-top center-login">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="img-fluid"></a>
+                <a class="navbar-brand" href="#"><img src="https://jeanp94.github.io/pichangabet/img/logo.png" alt="" class="img-fluid"></a>
                 <div class="d-flex flex-column w-100">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,20 +32,20 @@
                     <div class="d-flex align-self-end box-login">
                         <div class="d-flex align-items-center">
                             <div class="btn-fabe px-2">
-                                <img src="img/ICON-FB.png" alt="" width="25px;">
+                                <img src="https://jeanp94.github.io/pichangabet/img/ICON-FB.png" alt="" width="25px;">
                             </div>
                             <div class="btn-question px-2">
-                                <img src="img/ICON-INTERROGACION.png" alt="" srcset="" width="25px;">
+                                <img src="https://jeanp94.github.io/pichangabet/img/ICON-INTERROGACION.png" alt="" srcset="" width="25px;">
                             </div>
-                            <a class="btn-question text-login d-flex align-items-center px-2" href="#">
+                            <button class="btn-question text-login d-flex align-items-center px-2" type="button" data-toggle="modal" data-target="#exampleModal">
                                 <div class="img-logo">
-                                    <img src="img/LOG-IN-ICON.png" class="mx-1" width="25px;">
+                                    <img src="https://jeanp94.github.io/pichangabet/img/LOG-IN-ICON.png" class="mx-1" width="25px;">
                                 </div>   
                                 <p class="align-items-center">Iniciar sesión</p>
-                            </a>
+                            </button>
                             <a class="btn-register text-login d-flex align-items-center px-2 box-register" href="#">
                                 <div class="img-logo">
-                                    <img src="img/REGISTER.png" class="mx-1" width="25px;">
+                                    <img src="https://jeanp94.github.io/pichangabet/img/REGISTER.png" class="mx-1" width="25px;">
                                 </div>
                                 <p class="align-items-center">Registrarse</p>
                             </a>
@@ -44,22 +54,22 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav justify-content-around w-100">
                         <li class="nav-item link-option text-center">
-                        <a class="nav-link" href="#"><img src="img/ICON-PROMO.png" alt="" width="25px" class="mx-2">PROMOCIONES</a>
+                        <a class="nav-link" href="#"><img src="https://jeanp94.github.io/pichangabet/img/ICON-PROMO.png" alt="" width="25px" class="mx-2">PROMOCIONES</a>
                         </li>
                         <li class="nav-item link-option text-center">
-                        <a class="nav-link" href="#"><img src="img/ICON-APUESTAS.png" alt="" width="25px"> APUESTAS DEPORTIVAS</a>
+                        <a class="nav-link" href="#"><img src="https://jeanp94.github.io/pichangabet/img/ICON-APUESTAS.png" alt="" width="25px"> APUESTAS DEPORTIVAS</a>
                         </li>
                         <li class="nav-item link-option text-center">
-                            <a class="nav-link" href="#"><img src="img/ICON-CASINO.png" alt="" width="25px" class="mx-2">LIVE CASINO</a>
+                            <a class="nav-link" href="#"><img src="https://jeanp94.github.io/pichangabet/img/ICON-CASINO.png" alt="" width="25px" class="mx-2">LIVE CASINO</a>
                         </li>
                         <li class="nav-item link-option text-center">
-                        <a class="nav-link" href="#"><img src="img/POKER-ICON.png" alt="" width="25px" class="mx-2"> POKER</a>
+                        <a class="nav-link" href="#"><img src="https://jeanp94.github.io/pichangabet/img/POKER-ICON.png" alt="" width="25px" class="mx-2"> POKER</a>
                         </li>
                         <li class="nav-item link-option text-center">
-                            <a class="nav-link" href="#" ><img src="img/ICON-BLOG.png" alt="" width="25px" class="mx-2"> BLOG</a>
+                            <a class="nav-link" href="blog.html" ><img src="https://jeanp94.github.io/pichangabet/img/ICON-BLOG.png" alt="" width="25px" class="mx-2"> BLOG</a>
                         </li>
                         <li class="nav-item link-option text-center">
-                            <a class="nav-link link-active-option" href="#"><img src="img/ICON-LIVE.png" alt="" width="25px" class="mx-2"> ENCUENTROS EN VIVO</a>
+                            <a class="nav-link link-active-option" href="#"><img src="https://jeanp94.github.io/pichangabet/img/ICON-LIVE.png" alt="" width="25px" class="mx-2"> ENCUENTROS EN VIVO</a>
                         </li>
                     </ul>
                 </div>
@@ -71,23 +81,23 @@
         <div class="your-class">
             <div>
                 <picture>
-                    <source srcset="img/800-950.png" media="(max-width: 800px)"></source>
-                    <source srcset="img/1920_780.png" media="(min-width: 800px)"></source>
-                    <img src="img/1920_780.png" alt="" srcset="" class="img-fluid">
+                    <source srcset="https://jeanp94.github.io/pichangabet/img/800-950.png" media="(max-width: 800px)"></source>
+                    <source srcset="https://jeanp94.github.io/pichangabet/img/1920_780.png" media="(min-width: 800px)"></source>
+                    <img src="https://jeanp94.github.io/pichangabet/img/1920_780.png" alt="" srcset="" class="img-fluid">
                 </picture>
             </div>
             <div>
                   <picture>
-                    <source srcset="img/800-950.png" media="(max-width: 800px)"></source>
-                    <source srcset="img/1920_780.png" media="(min-width: 800px)"></source>
-                    <img src="img/1920_780.png" alt="" srcset="" class="img-fluid">
+                    <source srcset="https://jeanp94.github.io/pichangabet/img/800-950.png" media="(max-width: 800px)"></source>
+                    <source srcset="https://jeanp94.github.io/pichangabet/img/1920_780.png" media="(min-width: 800px)"></source>
+                    <img src="https://jeanp94.github.io/pichangabet/img/1920_780.png" alt="" srcset="" class="img-fluid">
                 </picture>
             </div>
             <div>
                   <picture>
-                    <source srcset="img/800-950.png" media="(max-width: 800px)"></source>
-                    <source srcset="img/1920_780.png" media="(min-width: 800px)"></source>
-                    <img src="img/1920_780.png" alt="" srcset="" class="img-fluid">
+                    <source srcset="https://jeanp94.github.io/pichangabet/img/800-950.png" media="(max-width: 800px)"></source>
+                    <source srcset="https://jeanp94.github.io/pichangabet/img/1920_780.png" media="(min-width: 800px)"></source>
+                    <img src="https://jeanp94.github.io/pichangabet/img/1920_780.png" alt="" srcset="" class="img-fluid">
                 </picture>
             </div>
         </div>
@@ -101,7 +111,7 @@
                             <div class="card card-information mx-3">
                                 <div class="container-fluid p-2" >
                                     <div class="box-information">
-                                        <img src="img/img1.png" class="img-fluid" alt="" srcset="">
+                                        <img src="https://jeanp94.github.io/pichangabet/img/img1.png" class="img-fluid" alt="" srcset="">
                                     </div>
                                     <div class="btn-more py-2">
                                         <div class="container">
@@ -120,7 +130,7 @@
                             <div class="card card-information mx-3">
                                 <div class="container-fluid p-2">
                                     <div class="box-information">
-                                        <img src="img/img2.png" class="img-fluid" alt="" srcset="">
+                                        <img src="https://jeanp94.github.io/pichangabet/img/img2.png" class="img-fluid" alt="" srcset="">
                                     </div>
                                     <div class="btn-more py-2">
                                         <div class="container">
@@ -139,7 +149,7 @@
                             <div class="card card-information mx-3">
                                 <div class="container-fluid p-2">
                                     <div class="box-information">
-                                        <img src="img/img3.png" class="img-fluid" alt="" srcset="">
+                                        <img src="https://jeanp94.github.io/pichangabet/img/img3.png" class="img-fluid" alt="" srcset="">
                                     </div>
                                     <div class="btn-more py-2">
                                         <div class="container">
@@ -160,27 +170,66 @@
     </section>
     <section class="py-5">
         <picture>
-            <source srcset="img/640-560.png" media="(max-width: 640px)"></source>
-            <source srcset="img/cover-pichanga-febrero-PAW.png" media="(min-width: 640px)"></source>
-            <img src="img/cover-pichanga-febrero-PAW.png" alt="" srcset="" class="img-fluid">
+            <source srcset="https://jeanp94.github.io/pichangabet/img/640-560.png" media="(max-width: 640px)"></source>
+            <source srcset="https://jeanp94.github.io/pichangabet/img/cover-pichanga-febrero-PAW.png" media="(min-width: 640px)"></source>
+            <img src="https://jeanp94.github.io/pichangabet/img/cover-pichanga-febrero-PAW.png" alt="" srcset="" class="img-fluid">
         </picture>
     </section>
     <section class="pb-5">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="social-redes">
-                    <img src="img/ICON-FB.png" alt="" width="45px">
+                    <img src="https://jeanp94.github.io/pichangabet/img/ICON-FB.png" alt="" width="45px">
                 </div>
                 <div class="footer-logo">
-                    <img src="img/logo-b-n.png" alt="">
+                    <img src="https://jeanp94.github.io/pichangabet/img/logo-b-n.png" alt="">
                     <span class="copy-right">Copyright © 2019 - Pichanga Bet</span>
                 </div>
             </div>
         </div>
     </section>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate.js"></script>
-    <script src="js/slick.min.js"></script>
+    
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="w-100 d-flex justify-content-center align-items-center">
+       <img src="https://jeanp94.github.io/pichangabet/img/logo.png"> 
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+                <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Usuario / Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar email">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electrónico con nadie más.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresar Contraseña">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Recordar Sessión</label>
+            </div>
+              <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Registrar</button>
+      </div>
+            </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://jeanp94.github.io/pichangabet/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://jeanp94.github.io/pichangabet/js/jquery-migrate.js"></script>
+    <script src="https://jeanp94.github.io/pichangabet/js/slick.min.js"></script>
     <script>
             $(document).ready(function(){
                 $('.your-class').slick({
@@ -191,6 +240,10 @@
                     cssEase: 'linear'
                 });
               });
+             
     </script>
+    
+
+
 </body>
 </html>
